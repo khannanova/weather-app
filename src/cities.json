@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Amsterdam",
+    "location_type": "City",
+    "woeid": 727232,
+    "latt_long": "52.3680,4.9036"
+  },
+  {
+    "title": "Kazan",
+    "location_type": "City",
+    "woeid": 2121267,
+    "latt_long": "55.8304,49.0661"
+  }
+]

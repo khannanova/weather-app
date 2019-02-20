@@ -1,0 +1,151 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    160deg,
+    rgba(136, 209, 252, 1) 0%,
+    rgba(84, 69, 253, 1) 100%
+  );
+  border-radius: 8px;
+  height: 100%;
+  padding: 15px 25px;
+}
+
+.card.is-clear-day {
+  background: linear-gradient(
+    160deg,
+    rgba(247, 183, 51, 1) 0%,
+    rgba(252, 74, 26, 1) 100%
+  );
+}
+
+.card.is-clear-night {
+  background: linear-gradient(
+    18deg,
+    rgba(182, 136, 252, 1) 0%,
+    rgba(73, 43, 176, 1) 100%
+  );
+}
+
+.card.is-rain {
+  background: linear-gradient(
+    18deg,
+    rgba(0, 110, 213, 1) 0%,
+    rgba(162, 171, 177, 1) 74%
+  );
+}
+
+.card.is-sleet {
+  background: linear-gradient(
+    18deg,
+    rgba(0, 110, 213, 1) 0%,
+    rgba(162, 171, 177, 1) 74%
+  );
+}
+
+.card.is-snow {
+  background: linear-gradient(
+    18deg,
+    rgba(0, 175, 245, 1) 0%,
+    rgba(0, 223, 247, 1) 74%
+  );
+}
+
+.card.is-fog {
+  background: linear-gradient(
+    18deg,
+    rgba(148, 190, 195, 1) 0%,
+    rgba(135, 192, 228, 1) 74%
+  );
+}
+
+.card.is-cloudy {
+  background: linear-gradient(
+    18deg,
+    rgba(63, 174, 187, 1) 0%,
+    rgba(0, 157, 255, 1) 100%
+  );
+}
+
+.card.is-partly-cloudy-day {
+  background: linear-gradient(
+    18deg,
+    rgba(0, 190, 254, 1) 17%,
+    rgba(255, 190, 0, 1) 100%
+  );
+}
+
+.card.is-partly-cloudy-night {
+  background: linear-gradient(
+    18deg,
+    rgba(121, 0, 254, 1) 17%,
+    rgba(136, 203, 251, 1) 100%
+  );
+}
+
+.card.is-default {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.card-day {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.card-line {
+  border-bottom: 3.5px solid #fff;
+  width: 100%;
+}
+
+.card-temperature {
+  font-size: 36px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.card-row {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-temperature .small {
+  font-size: 22px;
+}
+
+.card-city {
+  font-size: 36px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.card-options {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.card-weather {
+  font-size: 36px;
+}
+
+.card-back {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}

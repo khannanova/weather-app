@@ -1,0 +1,31 @@
+.list {
+  color: #333;
+  text-align: left;
+  list-style-type: none;
+  font-size: 24px;
+  padding: 0;
+  flex: 1;
+  margin: 0;
+}
+
+.list-item {
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.list-item.is-selected:after {
+  background: url('checkmark.svg');
+  background-size: 100%;
+  content: ' ';
+  display: block;
+  height: 15px;
+  left: -4px;
+  position: absolute;
+  top: 12px;
+  width: 15px;
+}
+
+.list-item.is-selected {
+  color: #5A56FD;
+}
